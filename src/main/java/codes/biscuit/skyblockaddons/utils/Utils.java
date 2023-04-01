@@ -70,9 +70,9 @@ public class Utils {
             ColorCode.GRAY + "[" + ColorCode.AQUA + "SBA" + ColorCode.GRAY + "] " + ColorCode.RESET;
 
     /**
-     * "Skyblock" as shown on the scoreboard title in English, Chinese Simplified, Traditional Chinese.
+     * "Skyblock" as shown on the scoreboard title in English, English (April Fools), Chinese Simplified, Traditional Chinese.
      */
-    private static final Set<String> SKYBLOCK_IN_ALL_LANGUAGES = Sets.newHashSet("SKYBLOCK", "\u7A7A\u5C9B\u751F\u5B58", "\u7A7A\u5CF6\u751F\u5B58");
+    private static final Set<String> SKYBLOCK_IN_ALL_LANGUAGES = Sets.newHashSet("SKYBLOCK", "SKIBLOCK", "\u7A7A\u5C9B\u751F\u5B58", "\u7A7A\u5CF6\u751F\u5B58");
 
     /**
      * Matches the server ID (mini##/Mega##) line on the Skyblock scoreboard
